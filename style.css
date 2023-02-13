@@ -1,0 +1,16 @@
+body{
+    border: 2px solid black;
+}
+
+.gridFirma{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.imgFirma{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: black;
+}
+
